@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff9aa;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(39, 143, 233); */
+}
+
+.winner{
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.9rem;
+    color: #ff0000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* display: none; */
+}
+
+#newGame, #resetGame{
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 8rem;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    box-shadow: 0.2rem 0.2rem 0.5rem #F2C18D;
+}
+
+#newGame:hover{
+    transition: 0.3s;
+    scale: 0.9;
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+}
+
+#resetGame:hover{
+    transition: 0.3s;
+    scale: 0.9;
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+}
+
+#resetGame:active{
+    scale: 0.5;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vmin;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.1rem 0.1rem 0.1rem wheat;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: width;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: rgb(83, 76, 68); */
+}
+
+#btn{
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem;
+    font-size: 3rem;
+    color: #F2C18D;
+}
+#btn:hover{
+    transition: 0.2s;
+    scale: 0.87;
+}
+
+  
+
