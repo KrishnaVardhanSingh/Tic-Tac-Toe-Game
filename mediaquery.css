@@ -13,6 +13,20 @@
     }
 
 
+    #newGame, #resetGame{
+        width: 7rem;
+        height: 3rem;
+        border: none;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8rem;
+        background-color: rgb(65, 65, 65);
+        color: white;
+        box-shadow: 0.2rem 0.2rem 0.5rem #F2C18D;
+        margin-bottom: 1rem;
+    }
+    
+
     .main{
         display: flex;
         flex-wrap: wrap;
@@ -21,18 +35,21 @@
         justify-content: center;
         align-items: center;
         /* background-color: bisque; */
+        
     }
 
 
     .box{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 20rem;
         height: width;
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        /* background-color: rgb(83, 76, 68); */
+        background-color: rgb(83, 76, 68);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     #btn{
